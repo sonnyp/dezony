@@ -1,0 +1,21 @@
+{
+  "name": "dezony",
+  "version": "0.0.0",
+  "description": "Run a function once.",
+  "homepage": "https://github.com/sonnyp/dezony",
+  "bugs": "https://github.com/sonnyp/dezony/issues",
+  "license": "ISC",
+  "author": "Sonny Piers <sonny@fastmail.net>",
+  "keywords": [
+    "async",
+    "once",
+    "zony"
+  ],
+  "scripts": {
+    "preversion": "npm test",
+    "lint": "standard",
+    "unit": "node test.js",
+    "test": "npm run unit && npm run lint"
+  },
+  "repository": "github:sonnyp/dezony"
+}
